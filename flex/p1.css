@@ -1,0 +1,44 @@
+nav {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#edit {
+    background-color: brown;
+    width: 90%;
+    height: 500px;
+    border: 1px solid;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap-reverse;
+
+
+}
+
+
+
+
+#edit div {
+    width: 200px;
+    height: 200px;
+
+}
+
+div:nth-of-type(2) {
+    align-self: flex-end;
+}
+
+
+@media(min-width:600px) {
+
+    nav {
+        color: wheat;
+    }
+
+
+
+}
